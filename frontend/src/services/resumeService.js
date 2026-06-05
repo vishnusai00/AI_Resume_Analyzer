@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/resume",
+  baseURL: "https://ats-backend-tzff.onrender.com/api/resume",
 });
 
 export const uploadResume = (formData) =>
