@@ -74,7 +74,7 @@ function Login() {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                placeholder="you@example.com"
+                placeholder="youremail@example.com"
                 required
                 className="w-full bg-slate-800/60 border border-white/8 hover:border-white/15 focus:border-indigo-500 rounded-xl px-4 py-3 text-white placeholder-slate-500 text-sm outline-none transition-colors"
               />

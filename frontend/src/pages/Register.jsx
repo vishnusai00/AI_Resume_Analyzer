@@ -87,7 +87,7 @@ function Register() {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                placeholder="John Doe"
+                placeholder="Vishnu Sai"
                 required
                 className="w-full bg-slate-800/60 border border-white/8 hover:border-white/15 focus:border-indigo-500 rounded-xl px-4 py-3 text-white placeholder-slate-500 text-sm outline-none transition-colors"
               />
@@ -117,7 +117,7 @@ function Register() {
                 name="password"
                 value={formData.password}
                 onChange={handleChange}
-                placeholder="Min. 8 characters"
+                placeholder="enter password"
                 required
                 className="w-full bg-slate-800/60 border border-white/8 hover:border-white/15 focus:border-indigo-500 rounded-xl px-4 py-3 text-white placeholder-slate-500 text-sm outline-none transition-colors"
               />
